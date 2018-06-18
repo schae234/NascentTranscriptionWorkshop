@@ -48,4 +48,10 @@ Nascent vs RNASeq
 * long term response to change
 * isoforms / splicing events
 
+# Garbage IN garbage OUT
+You are given a bag of reads. You need to do a quality check.
+The first thing you need to do is establish an expectation (you are a
+scientist after all). Then you need to decide how to visualize your data
+and identify anything weird.
 
+# Data playing
