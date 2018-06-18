@@ -1,0 +1,13 @@
+# Nascent Transcription Workshop
+Goals of the workshop: "drink from the firehose"
+
+* Understanding the experiment
+* Data science: understand your expectation and evaluate your reality
+* Strive to do reproducible research
+* Comparison (usually between 2 samples)
+
+Overview for "pipeline"
+* get bag of reads from sequencer
+* Do QC to make sure you're not wasting your time
+* map the reads
+* say something about what is going on
