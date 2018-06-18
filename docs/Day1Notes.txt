@@ -11,3 +11,41 @@ Overview for "pipeline"
 * Do QC to make sure you're not wasting your time
 * map the reads
 * say something about what is going on
+
+Keep a digital notebook
+
+So far ... install x2GO to run IGV on the amazon instance
+Note: I modified my DNS to forward nascent.linkage.io to my amazon instance
+
+# Transcription
+The process of converting DNA to mRNA
+*most* cells in your body share the same genome
+
+Despite years of expression studies, we have not been assaying transcription. 
+They have been doing RNASeq. Most of the RNA in the cell are ribosomal RNA. 
+RNASeq protocols usually have a step where they pull out the ribosomal RNA.
+
+Nascent transcription is the step where RNA polymerase attaches to DNA to make 
+pre-mRNA. Then stuff gets spliced and a steady mRNA is made. 
+
+GRO-Seq is a protocol for looking for nascent transcription. RNASeq gives you and idea
+of ALL the mRNAs in the cell (they could be days old). GRO-Seq gives you what is currently
+being transcribed. 
+
+Splicing is co-transcriptional. It happens while mRNAs are being produced. 
+GROSeq gives you reads for exons (not yet spliced) as well as for eRNAs 
+(unannotated regions). 
+
+**Nascent is assaying polymerase**
+
+Nascent vs RNASeq
+### Nascent:
+* Pausing / elongation / termination
+* temporal response to change
+* regulatory elements
+### RNASeq:
+* expression profiles of tissues
+* long term response to change
+* isoforms / splicing events
+
+
